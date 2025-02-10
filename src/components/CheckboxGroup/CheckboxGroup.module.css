@@ -1,0 +1,8 @@
+.checkboxGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxGroup label {
+    margin: 5px 0;
+}

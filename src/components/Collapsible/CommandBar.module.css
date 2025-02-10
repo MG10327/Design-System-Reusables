@@ -1,0 +1,32 @@
+    /* .collapsible {
+    Basic container styles
+  } */
+
+  .toggleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .toggleButton.open {
+    color: green; /* For open state */
+  }
+  
+  .toggleButton.closed {
+    color: red; /* For closed state */
+  }
+  
+  .content {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .content.open {
+    max-height: 1000px; /* Or whatever value fits your content */
+  }
+  
+  .content.closed {
+    max-height: 0;
+  }

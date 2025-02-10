@@ -1,0 +1,23 @@
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.accordionItem {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordionHeader {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+}
+
+.accordionContent {
+    padding: 12px;
+    background-color: #f9f9f9;
+}

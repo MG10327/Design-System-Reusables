@@ -1,0 +1,10 @@
+.avatarGroup {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.avatarGroup img {
+    border-radius: 50%;
+    object-fit: cover;
+}
